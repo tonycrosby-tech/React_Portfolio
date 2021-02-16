@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.597909b4.chunk.css",
-    "main.js": "/static/js/main.d5be0730.chunk.js",
-    "main.js.map": "/static/js/main.d5be0730.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.6ac51ad9.chunk.js": "/static/js/2.6ac51ad9.chunk.js",
-    "static/js/2.6ac51ad9.chunk.js.map": "/static/js/2.6ac51ad9.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d36d238a6b6b3b356bfb74fdf7aff5a3.js": "/precache-manifest.d36d238a6b6b3b356bfb74fdf7aff5a3.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.597909b4.chunk.css.map": "/static/css/main.597909b4.chunk.css.map",
-    "static/js/2.6ac51ad9.chunk.js.LICENSE.txt": "/static/js/2.6ac51ad9.chunk.js.LICENSE.txt",
-    "static/media/avatar.png": "/static/media/avatar.57e30330.png",
-    "static/media/App.css": "/static/media/coding-bkg.ec5b08f6.jpg",
-    "static/media/first_website.JPG": "/static/media/first_website.5dd96aaa.JPG",
-    "static/media/jsquiz.jpg": "/static/media/jsquiz.500568d5.jpg",
-    "static/media/password-generator.jpg": "/static/media/password-generator.ac14011b.jpg",
-    "static/media/sportzilla-demo.gif": "/static/media/sportzilla-demo.b5fd1622.gif",
-    "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.02f31d24.jpg",
-    "static/media/website1.JPG": "/static/media/website1.4f1d1259.JPG"
+    "main.css": "/React_Portfolio/static/css/main.ecf062f8.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.489fbd92.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.489fbd92.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.446e9683.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.446e9683.js.map",
+    "static/js/2.6ac51ad9.chunk.js": "/React_Portfolio/static/js/2.6ac51ad9.chunk.js",
+    "static/js/2.6ac51ad9.chunk.js.map": "/React_Portfolio/static/js/2.6ac51ad9.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "precache-manifest.abbf366b44a59a4b47682994d04d874e.js": "/React_Portfolio/precache-manifest.abbf366b44a59a4b47682994d04d874e.js",
+    "service-worker.js": "/React_Portfolio/service-worker.js",
+    "static/css/main.ecf062f8.chunk.css.map": "/React_Portfolio/static/css/main.ecf062f8.chunk.css.map",
+    "static/js/2.6ac51ad9.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.6ac51ad9.chunk.js.LICENSE.txt",
+    "static/media/avatar.png": "/React_Portfolio/static/media/avatar.57e30330.png",
+    "static/media/App.css": "/React_Portfolio/static/media/coding-bkg.ec5b08f6.jpg",
+    "static/media/first_website.JPG": "/React_Portfolio/static/media/first_website.5dd96aaa.JPG",
+    "static/media/jsquiz.jpg": "/React_Portfolio/static/media/jsquiz.500568d5.jpg",
+    "static/media/password-generator.jpg": "/React_Portfolio/static/media/password-generator.ac14011b.jpg",
+    "static/media/sportzilla-demo.gif": "/React_Portfolio/static/media/sportzilla-demo.b5fd1622.gif",
+    "static/media/weather-dashboard.jpg": "/React_Portfolio/static/media/weather-dashboard.02f31d24.jpg",
+    "static/media/website1.JPG": "/React_Portfolio/static/media/website1.4f1d1259.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/runtime-main.446e9683.js",
     "static/js/2.6ac51ad9.chunk.js",
-    "static/css/main.597909b4.chunk.css",
-    "static/js/main.d5be0730.chunk.js"
+    "static/css/main.ecf062f8.chunk.css",
+    "static/js/main.489fbd92.chunk.js"
   ]
 }
