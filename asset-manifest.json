@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.ecf062f8.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.177a4c6d.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.177a4c6d.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.446e9683.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.446e9683.js.map",
+    "static/js/2.cb733b01.chunk.js": "/React_Portfolio/static/js/2.cb733b01.chunk.js",
+    "static/js/2.cb733b01.chunk.js.map": "/React_Portfolio/static/js/2.cb733b01.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "precache-manifest.1512af25d3b032dc6a4055af61b285e3.js": "/React_Portfolio/precache-manifest.1512af25d3b032dc6a4055af61b285e3.js",
+    "service-worker.js": "/React_Portfolio/service-worker.js",
+    "static/css/main.ecf062f8.chunk.css.map": "/React_Portfolio/static/css/main.ecf062f8.chunk.css.map",
+    "static/js/2.cb733b01.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.cb733b01.chunk.js.LICENSE.txt",
+    "static/media/avatar.png": "/React_Portfolio/static/media/avatar.57e30330.png",
+    "static/media/App.css": "/React_Portfolio/static/media/coding-bkg.ec5b08f6.jpg",
+    "static/media/first_website.JPG": "/React_Portfolio/static/media/first_website.5dd96aaa.JPG",
+    "static/media/jsquiz.jpg": "/React_Portfolio/static/media/jsquiz.500568d5.jpg",
+    "static/media/password-generator.jpg": "/React_Portfolio/static/media/password-generator.ac14011b.jpg",
+    "static/media/sportzilla-demo.gif": "/React_Portfolio/static/media/sportzilla-demo.b5fd1622.gif",
+    "static/media/weather-dashboard.jpg": "/React_Portfolio/static/media/weather-dashboard.02f31d24.jpg",
+    "static/media/website1.JPG": "/React_Portfolio/static/media/website1.4f1d1259.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.446e9683.js",
+    "static/js/2.cb733b01.chunk.js",
+    "static/css/main.ecf062f8.chunk.css",
+    "static/js/main.177a4c6d.chunk.js"
+  ]
+}
