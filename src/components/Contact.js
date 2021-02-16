@@ -5,6 +5,7 @@ import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
+import Link from "@material-ui/core/Link"
 
 import Send from "@material-ui/icons/Send";
 
@@ -91,6 +92,7 @@ const Contact = () => {
             rows={4}
             inputProps={{ className: classes.input }}
           />
+          <Link href="mailto:tonycrosby96@gmail.com">
           <Button
             variant="outlined"
             fullWidth={true}
@@ -99,6 +101,7 @@ const Contact = () => {
           >
             Contact Me
           </Button>
+          </Link>
         </Box>
       </Grid>
     </Box>
