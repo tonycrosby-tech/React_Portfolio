@@ -30,3 +30,33 @@ const useStyles = makeStyles((theme) => ({
     zIndex: 1,
   },
 }));
+
+const Header = () => {
+  const classes = useStyles();
+
+  return (
+    <Box className={classes.typedContainer}>
+      <Grid container justify="center">
+        <Avatar className={classes.avatar} src={avatar} alt="Tony Crosby" />
+      </Grid>
+      <Typography className={classes.title} variant="h4">
+        <Typed strings={["Tony Crosby"]} typeSpeed={40} />
+      </Typography>
+
+      <Typography className={classes.subtitle} variant="h5">
+        <Typed
+          strings={[
+            "Frontend Developer",
+            "Backend Developer",
+            "Coder by Day and Coder by Night!",
+          ]}
+          typeSpeed={40}
+          backSpeed={50}
+          loop
+        />
+      </Typography>
+    </Box>
+  );
+};
+
+export default Header;
