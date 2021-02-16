@@ -52,7 +52,7 @@ const projects = [
   },
   {
     name: "Project 5 - Weather Dashboard",
-    description: `This is a weather dashboard used to find the weather in any City, When searched you can click on any recent city you searched for and it will display the weather in that city. This weather dashboard Displays the Current weather Forecast from The Type of Weather, Temperature, Humidity, Wind Speed and UVI Index. Also when searched a 5-Day forecast will appear including the day and date, Temperature and Humidity! On the top of the screen will Display the current time and the current day.`,
+    description: `This is a weather dashboard used to find the weather in any City, When searched you can click on any recent city you searched for and it will display the weather in that city.`,
     image: project5,
   },
   {
