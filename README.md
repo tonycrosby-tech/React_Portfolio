@@ -15,11 +15,11 @@ This was my first react portfolio I really enjoyed working on it!
 * [Contributing](#Contributing)
 
 # Screenshots
-[HW](./src/images/react-portfolio-1.JPG)
-[HW](src/images/react-portfolio-2.JPG)
-[HW](src/images/react-portfolio-3.JPG)
-[HW](src/images/react-portfolio-4.JPG)
-[HW](src/images/react-portfolio-5.JPG)
+![HW](./src/images/react-portfolio-1.JPG)
+![HW](./src/images/react-portfolio-2.JPG)
+![HW](./src/images/react-portfolio-3.JPG)
+![HW](./src/images/react-portfolio-4.JPG)
+![HW](./src/images/react-portfolio-5.JPG)
 # Installations
 > npm i
 # Usage
