@@ -249,7 +249,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Started in September learning HTML, CSS, JavaScript ETC.
+            Started in September learning HTML, CSS, JavaScript etc.
             <br></br>
             Anticipated Graduation Date - Mar 2021
           </Typography>
