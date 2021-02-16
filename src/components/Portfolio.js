@@ -9,6 +9,7 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import Link from "@material-ui/core/Link"
 
 import project1 from "../images/first_website.JPG";
 import project2 from "../images/jsquiz.jpg";
@@ -33,32 +34,38 @@ const projects = [
     name: "Project 1 - My First Website",
     description: `This was the first website I created at the beginning of the class!`,
     image: project1,
+    Link: "https://tonycrosby.net/portfolio_updated/index.html"
   },
   {
     name: "Project 2 - Javascript Quiz",
     description: `This was a relatively easy project I made, It's a JavaScript Quiz with a few questions.`,
     image: project2,
+    Link: "https://tonycrosby.net/04_web_api/"
   },
   {
     name: "Project 3 - Password Generator",
     description: `This project was pretty fun we got to make our own password generator!`,
     image: project3,
+    Link: "https://tonycrosby.net/03_password_generator/"
   },
   {
     name: "Project 4 - Sportzilla",
     description: `This was our First Actual Project, We created an App where you can search different basketball players names
       and pop up with information. (Only Basketball) ~ We didn't implement a feature to search for every sport.`,
     image: project4,
+    Link: "https://millsy4.github.io/sportz_project/"
   },
   {
     name: "Project 5 - Weather Dashboard",
     description: `This is a weather dashboard used to find the weather in any City, When searched you can click on any recent city you searched for and it will display the weather in that city.`,
     image: project5,
+    Link: "https://tonycrosby.net/06_weather_dashboard"
   },
   {
     name: "Project 6 - My Last Non-React Website",
     description: `This was my last website created before making a React Website!`,
     image: project6,
+    Link: "https://tonycrosby.net/Portfolio_Complete"
   },
 ];
 
@@ -88,12 +95,11 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
-                </Button>
+                <Link href={project.Link}>
                 <Button size="small" color="primary">
                   Live Demo
                 </Button>
+                </Link>
               </CardActions>
             </Card>
           </Grid>
