@@ -51,10 +51,10 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const menuItems = [
-  { listIcon: <Home />, listText: "Home", listPath: "/React_Portfolio" },
-  { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/React_Portfolio/resume" },
-  { listIcon: <Apps />, listText: "Portfolio", listPath: "/React_Portfolio/portfolio" },
-  { listIcon: <ContactMail />, listText: "Contact", listPath: "/React_Portfolio/contact" },
+  { listIcon: <Home />, listText: "Home", listPath: "/" },
+  { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
+  { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
+  { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
 ];
 
 const Navbar = () => {

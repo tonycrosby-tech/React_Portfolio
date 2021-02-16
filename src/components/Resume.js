@@ -2,7 +2,9 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-
+import Link from "@material-ui/core/Link"
+import SaveIcon from '@material-ui/icons/Save';
+import Button from '@material-ui/core/Button';
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
     background: "#d3d3d3",
@@ -108,12 +110,27 @@ const useStyles = makeStyles((theme) => ({
   subtitle1: {
     color: "black",
   },
+  button: {
+    color: "#00008b",
+  }
 }));
 
 const Resume = () => {
   const classes = useStyles();
   return (
     <Box component="header" className={classes.mainContainer}>
+      <Link className={classes.download}  target="_blank" href="https://drive.google.com/file/d/1bY3L2GmRVqwboCksPUIEgklXwEcBCwFe/view">
+      <Button
+        variant="contained"
+        color="primary"
+        size="small"
+        className={classes.button}
+        startIcon={<SaveIcon />}
+      >
+        Download
+      </Button>
+
+      </Link>
       <Typography variant="h4" align="center" className={classes.heading}>
         Working Experience
       </Typography>
