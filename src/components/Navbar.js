@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
     width: 250,
     background: "#d3d3d3",
     height: "100%",
-    color: "#ad8e6"
+    color: "#ad8e6",
   },
   avatar: {
     display: "block",
@@ -56,3 +56,56 @@ const menuItems = [
   { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
   { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
 ];
+
+const Navbar = () => {
+  const [open, setOpen] = useState(false);
+
+  const classes = useStyles();
+
+  const sideList = () => (
+    <Box className={classes.menuSliderContainer} component="div">
+      <Avatar className={classes.avatar} src={avatar} alt="Tony Crosby" />
+      <Divider />
+      <List>
+        {menuItems.map((item, i) => (
+          <ListItem
+            button
+            key={i}
+            className={classes.listItem}
+            onClick={() => setOpen(false)}
+            component={Link}
+            to={item.listPath}
+          >
+            <ListItemIcon className={classes.listItem}>
+              {item.listIcon}
+            </ListItemIcon>
+            <ListItemText primary={item.listText} />
+          </ListItem>
+        ))}
+      </List>
+    </Box>
+  );
+
+  return (
+    <React.Fragment>
+      <Box component="nav">
+        <AppBar position="static" className={classes.appbar}>
+          <Toolbar>
+            <IconButton onClick={() => setOpen(true)}>
+              <ArrowBack className={classes.arrow} />
+            </IconButton>
+            <Typography variant="h5" className={classes.title}>
+              Portfolio
+            </Typography>
+          </Toolbar>
+        </AppBar>
+      </Box>
+      <Drawer open={open} anchor="right" onClose={() => setOpen(false)}>
+        {sideList()}
+        <Footer />
+      </Drawer>
+    </React.Fragment>
+  );
+};
+
+export default Navbar;
