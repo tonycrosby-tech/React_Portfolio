@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b3e91ad61f7f0e3f43dc2007c1273ac",
+    "revision": "fe8002dcef558bbf62ba29a5a372ed95",
     "url": "/React_Portfolio/index.html"
   },
   {
-    "revision": "ecda3fc79e20753e44e1",
+    "revision": "d93a1a8ea52fbb2779c4",
     "url": "/React_Portfolio/static/css/main.ecf062f8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/js/2.b1508da0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ecda3fc79e20753e44e1",
-    "url": "/React_Portfolio/static/js/main.5b97d23d.chunk.js"
+    "revision": "d93a1a8ea52fbb2779c4",
+    "url": "/React_Portfolio/static/js/main.8b31cde8.chunk.js"
   },
   {
     "revision": "3a0598dfa4517aaf1428",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React_Portfolio/static/media/first_website.5dd96aaa.JPG"
   },
   {
+    "revision": "2f0197f10a7b4e7ac89e9de3d43af9a5",
+    "url": "/React_Portfolio/static/media/forums.2f0197f1.JPG"
+  },
+  {
     "revision": "500568d5a4ef90ad42a9bd6676b36e21",
     "url": "/React_Portfolio/static/media/jsquiz.500568d5.jpg"
   },
@@ -46,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b5fd1622664becbfdb6e302199a131fe",
     "url": "/React_Portfolio/static/media/sportzilla-demo.b5fd1622.gif"
-  },
-  {
-    "revision": "02f31d24a2e088469eac9426610898a4",
-    "url": "/React_Portfolio/static/media/weather-dashboard.02f31d24.jpg"
   },
   {
     "revision": "4f1d12596a47bb3571b0ed4c03adc049",
