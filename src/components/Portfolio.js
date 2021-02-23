@@ -15,7 +15,7 @@ import project1 from "../images/first_website.JPG";
 import project2 from "../images/jsquiz.jpg";
 import project3 from "../images/password-generator.jpg";
 import project4 from "../images/sportzilla-demo.gif";
-import project5 from "../images/weather-dashboard.jpg";
+import project5 from "../images/forums.JPG";
 import project6 from "../images/website1.JPG";
 
 const useStyles = makeStyles((theme) => ({
@@ -56,10 +56,10 @@ const projects = [
     Link: "https://millsy4.github.io/sportz_project/"
   },
   {
-    name: "Project 5 - Weather Dashboard",
-    description: `This is a weather dashboard used to find the weather in any City, When searched you can click on any recent city you searched for and it will display the weather in that city.`,
+    name: "Project 5 - WhatChaMaCallIt",
+    description: `This is a user Forum where a user can create threads and reply to others posts.`,
     image: project5,
-    Link: "https://tonycrosby.net/06_weather_dashboard"
+    Link: "https://fullstackbc-project-02.herokuapp.com/"
   },
   {
     name: "Project 6 - My Last Non-React Website",
