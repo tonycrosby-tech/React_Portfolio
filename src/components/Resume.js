@@ -119,7 +119,7 @@ const Resume = () => {
   const classes = useStyles();
   return (
     <Box component="header" className={classes.mainContainer}>
-      <Link className={classes.download}  target="_blank" href="https://drive.google.com/file/d/1bY3L2GmRVqwboCksPUIEgklXwEcBCwFe/view">
+      <Link className={classes.download}  target="_blank" href="https://docs.google.com/document/d/1LXRe2oxhB_wv1RlOngVGmCuWDOATxlwH_OXFqPWDBws/edit?usp=sharing">
       <Button
         variant="contained"
         color="primary"
