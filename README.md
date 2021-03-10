@@ -4,7 +4,7 @@
   ![GitHub Stars:](https://img.shields.io/github/stars/tonycrosby-tech/React_Portfolio)
 # React Portfolio
 # Description
-This was my first react portfolio I really enjoyed working on it!
+First ever React portfolio created with create-react-app template and material-ui
 # Table of Contents
 * [Installations](#Installations)
 * [Usage](#Usage)
